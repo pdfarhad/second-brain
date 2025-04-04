@@ -1,0 +1,19 @@
+[project]
+name = "second-brain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "boto3>=1.37.27",
+    "click>=8.1.7",
+    "crawl4ai>=0.3.745",
+    "datasets>=3.5.0",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.22",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.1",
+    "pydantic>=2.8.2",
+    "pymongo>=4.11.3",
+    "zenml>=0.80.1",
+]
